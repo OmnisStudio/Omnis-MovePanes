@@ -1,0 +1,25 @@
+{
+	"classtype": "kSystemtable",
+	"internalversion": 0,
+	"properties": {
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2000-04-17 17:42:30",
+		"desc": "",
+		"external": false,
+		"moddate": "2000-04-17 17:42:30",
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	},
+	"formats": [
+		">>(###) ###-####",
+		">>(###) ###-#### Ext(#####)",
+		">>(####) ######",
+		">>(####) ###### Ext.###",
+		">>#### #### #### ####",
+		">>###-###-###",
+		">>aa ## ## ## a",
+		">>##-aaa-##",
+		">>##-aaa-####"
+	]
+}

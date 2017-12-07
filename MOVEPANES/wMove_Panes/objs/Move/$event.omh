@@ -1,0 +1,13 @@
+On evClick
+	If OldPane>0&NewPane>0
+		Set reference TabPaneRef to $cinst.$objs.TP
+		Do TabPaneRef.$objs.$makelist($ref.$name,$ref) Returns PaneObjList
+		Calculate count as PaneObjList.$linecount
+		For num from 1 to count step 1
+			Set reference ObjRef to PaneObjList.[num].C2
+			Calculate PaneObjList.[num].C1 as TabPaneRef.$panenumber(ObjRef)
+			If PaneObjList.[num].C1=OldPane
+				Do TabPaneRef.$panenumber(ObjRef,NewPane) Returns #F
+			End If
+		End For
+	End If

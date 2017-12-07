@@ -1,0 +1,7 @@
+On evClick
+	Calculate num as $cinst.$objs.TP.$tabcount
+	Do $cinst.$objs.TP.$tabcount.$assign(num+1)
+	
+	Calculate OldPane as 1
+	Calculate NewPane as 3
+	Do $cinst.$redraw()

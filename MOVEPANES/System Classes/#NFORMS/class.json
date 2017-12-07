@@ -1,0 +1,28 @@
+{
+	"classtype": "kSystemtable",
+	"internalversion": 0,
+	"properties": {
+		"componenttype": "kCompStoreHidden",
+		"createdate": "2000-04-17 17:42:30",
+		"desc": "",
+		"external": false,
+		"moddate": "2000-04-17 17:42:30",
+		"showascheckedout": false,
+		"userinfo": "",
+		"version": ""
+	},
+	"formats": [
+		"0",
+		"0.00",
+		"#,##0",
+		"#,##0.00",
+		"#,##0;[RED](#,##0)",
+		"#,##0.00 'cr';#,##0.00 'dr'",
+		"'£' #,##0;[RED]'£'-#,##0;;'Nil'",
+		"'$' #,##0;[RED]'$'-#,##0;;'Nil'",
+		"0%",
+		"0.00%",
+		"0.00 E+00",
+		"0.00 E-00"
+	]
+}
